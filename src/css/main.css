@@ -199,26 +199,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
-/*07.10.2024 change fit scale design in the Header*/
 
-.yotpo-progress-bar-wrapper .yotpo-progress-bar{
-	margin-top: 0 !important;
-    margin-right: 0 !important;
-    border-radius: 2px !important;
-    overflow: hidden;
-    border: 1px solid #E0E0E0;
-    background: #F3F3F3 !important;
-    height: 10px !important;
-    border: 1px solid #343434 ;
+
+@media screen and (max-width: 480px){
+.wrapper, .accordion-body{
+  padding: 0 !important;
 }
-.yotpo-progress-bar .yotpo-progress-bar-score{
-	height: 100% !important;
-	border-radius: 0;
-	background-color: #A80000 !important
-}
-.yotpo-review-question.yotpo-review-product-questions .yotpo-review-question-wrapper .yotpo-review-range-question-top .yotpo-custom-questions-range-question-wrapper{
-	flex-basis: 20% !important
-}
-.yotpo-custom-questions-range-question:not(:has(.yotpo-progress-bar-value-point)) .yotpo-custom-questions-range-question-wrapper .yotpo-custom-questions-range-question-value:before{
-	content: unset !important
+  
 }
